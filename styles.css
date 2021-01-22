@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.parent{
+    height: 100vh;
+    border: 20px solid rgb(0, 0, 0);
+    display: flex;
+    /*justify-content: flex-start center flex-end space-evenly - horizontal alignment*/
+     /*flex-direction: row column .. - changes flow of inner elements*/
+     /*align-items: flex-start center flex-end space-evenly - vertical alignment*/
+      /*flex-wrap: wrap no-wrap - wrap content*/
+      /*align-content: flex-start center flex-end space-evenly - alignment after wrap*/
+      /*flex-flow: column wap - combines direction and wrap*/
+}
+
+.child1{
+    height: 200px;
+    width: 200px;
+    background: rgb(39, 61, 134);
+    /*flex-grow: [number] - splits and adds aditional empty space on axis*/
+    /*flex-shrink: [number] - defines ability of flex item to shrink if necessary*/
+    /*flex-basis: [px] - adds default width*/
+    /*flex: grow shrink  basis - sets grow shrink and basis at once*/
+}
+
+.child2{
+    height: 200px;
+    width: 200px;
+    background: rgb(172, 57, 53);
+}
+
+.child3{
+    height: 200px;
+    width: 200px;
+    background: rgb(149, 43, 140);
+}
+
+.child4{
+    height: 200px;
+    width: 200px;
+    background: rgb(13, 124, 72);
+}
